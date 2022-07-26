@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto&family=Play&display=swap');
 body{
-    background: url("bg.jpg");
+    background: url("Backgrounds/bg.jpg");
     background-size: cover;
     font-family: sans-serif;
     font-family: 'Play', cursive;
 }
-.topNav{
+.noBG{
+    background-color: rgba(0, 0, 0, 0);
+}
+.head1{
+    height: 400px;
+    margin: 0%;
+    padding: 0%;
+    background-image: url("Backgrounds/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.459);
+}
+/* .topNav{
     padding: 20px;
     padding-left: 50px;
     padding-right: 50px;
@@ -24,14 +36,6 @@ body{
 }
 .nav-item:hover .dropdown-menu{
     display: block;
-}
-.head1{
-    height: 400px;
-    margin: 0%;
-    padding: 0%;
-    background-image: url("header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .jumbotron{
     background: none;
@@ -59,4 +63,4 @@ body{
 }
 .dumbTXT{  
     font-family: 'Potta One', cursive;
-}
+} */
